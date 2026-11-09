@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Double cercle bordure or -->
+  <circle cx="50" cy="50" r="48" fill="#0B1F3A" stroke="#C9A227" stroke-width="2.5"/>
+  <circle cx="50" cy="50" r="41" fill="none" stroke="#C9A227" stroke-width="1" stroke-dasharray="2 1"/>
+  <circle cx="50" cy="50" r="32" fill="#0B1F3A" stroke="#C9A227" stroke-width="1.5"/>
+
+  <!-- Texte circulaire haut : INSTITUT CERTIFIÉ -->
+  <path id="curve-top" d="M 18,50 A 32,32 0 1,1 82,50" fill="none"/>
+  <text font-family="'Playfair Display', Georgia, serif" font-size="6.2" font-weight="700" fill="#FFFFFF" letter-spacing="0.12em">
+    <textPath href="#curve-top" startOffset="50%" text-anchor="middle">
+      INSTITUT CERTIFIÉ
+    </textPath>
+  </text>
+
+  <!-- Texte circulaire bas : MÉDIATION & RECOURS -->
+  <path id="curve-bottom" d="M 82,50 A 32,32 0 0,1 18,50" fill="none"/>
+  <text font-family="'Playfair Display', Georgia, serif" font-size="5.8" font-weight="700" fill="#FFFFFF" letter-spacing="0.12em">
+    <textPath href="#curve-bottom" startOffset="50%" text-anchor="middle">
+      MÉDIATION &amp; RECOURS
+    </textPath>
+  </text>
+
+  <!-- Cœur du sceau : Sigle ICRC / MP & Étoiles -->
+  <!-- Étoiles latérales -->
+  <text x="32" y="52" font-size="5.5" fill="#C9A227" text-anchor="middle">★</text>
+  <text x="68" y="52" font-size="5.5" fill="#C9A227" text-anchor="middle">★</text>
+  <text x="50" y="52" font-size="4.5" fill="#C9A227" text-anchor="middle">★/★</text>
+
+  <!-- Monogramme central -->
+  <text x="50" y="44" font-family="'Playfair Display', Georgia, serif" font-size="12" font-weight="700" fill="#C9A227" text-anchor="middle" letter-spacing="0.05em">
+    ICRC
+  </text>
+  <text x="50" y="65" font-family="'Playfair Display', Georgia, serif" font-size="12" font-weight="700" fill="#C9A227" text-anchor="middle" letter-spacing="0.05em">
+    MP
+  </text>
+</svg>
+

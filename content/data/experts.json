@@ -1,0 +1,78 @@
+[
+  {
+    "id": "exp-001",
+    "slug": "claire-de-la-tour",
+    "nom": "De La Tour",
+    "prenom": "Claire",
+    "photo": "/experts/claire-de-la-tour.jpg",
+    "diplome": {
+      "intitule": "Diplôme Universitaire de Médiation et Négociation Commerciale",
+      "organisme": "Université Paris-Panthéon-Assas",
+      "annee": 2018,
+      "justificatifUrl": "/secure/diplomes/du-assas-2018-0912.pdf"
+    },
+    "domaines": ["mediation", "conciliation"],
+    "zone": {
+      "ville": "Paris",
+      "departement": "75",
+      "region": "Île-de-France",
+      "aDistance": true
+    },
+    "langues": ["Français", "Anglais"],
+    "dateAdhesion": "2020-03-15",
+    "statut": "actif",
+    "bioCourte": "Médiatrice certifiée en conflits interentreprises et baux commerciaux. Pratique stricte de la conciliation amiable et confidentielle.",
+    "labellise": true
+  },
+  {
+    "id": "exp-002",
+    "slug": "marc-antoine-valin",
+    "nom": "Valin",
+    "prenom": "Marc-Antoine",
+    "photo": "/experts/marc-antoine-valin.jpg",
+    "diplome": {
+      "intitule": "Master 2 Droit et Contentieux Publics Approfondis",
+      "organisme": "Université d'Aix-Marseille",
+      "annee": 2015,
+      "justificatifUrl": "/secure/diplomes/m2-public-aix-2015-883.pdf"
+    },
+    "domaines": ["recours", "formation"],
+    "zone": {
+      "ville": "Lyon",
+      "departement": "69",
+      "region": "Auvergne-Rhône-Alpes",
+      "aDistance": true
+    },
+    "langues": ["Français"],
+    "dateAdhesion": "2021-06-10",
+    "statut": "actif",
+    "bioCourte": "Expertise en recours administratifs préalables obligatoires (RAPO) et litiges d'urbanisme. Formateur en contentieux procédural.",
+    "labellise": true
+  },
+  {
+    "id": "exp-003",
+    "slug": "sophie-benoit-lefevre",
+    "nom": "Benoît-Lefèvre",
+    "prenom": "Sophie",
+    "photo": "/experts/sophie-benoit-lefevre.jpg",
+    "diplome": {
+      "intitule": "Certificat de Pratique Arbitrale et d'Arbitrage Interne",
+      "organisme": "Institut d'Études Judiciaires de Bordeaux",
+      "annee": 2017,
+      "justificatifUrl": "/secure/diplomes/certif-arbitrage-bdx-2017.pdf"
+    },
+    "domaines": ["arbitrage", "mediation"],
+    "zone": {
+      "ville": "Bordeaux",
+      "departement": "33",
+      "region": "Nouvelle-Aquitaine",
+      "aDistance": false
+    },
+    "langues": ["Français", "Espagnol"],
+    "dateAdhesion": "2022-01-20",
+    "statut": "actif",
+    "bioCourte": "Intervention sur sentences arbitrales conventionnelles et clauses compromissoires. Procédure contradictoire rigoureuse.",
+    "labellise": false
+  }
+]
+

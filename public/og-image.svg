@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0B1F3A"/>
+  <!-- Filet fin or discret d'encadrement -->
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#C9A227" stroke-width="2" stroke-opacity="0.6"/>
+  <rect x="52" y="52" width="1096" height="526" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.1"/>
+
+  <!-- Logo ICRCMP -->
+  <g transform="translate(100, 110)">
+    <rect width="90" height="90" rx="6" fill="#061224" stroke="#C9A227" stroke-width="2"/>
+    <text x="45" y="58" font-family="'Playfair Display', Georgia, serif" font-size="46" font-weight="700" fill="#C9A227" text-anchor="middle">I</text>
+    <text x="45" y="78" font-family="'Inter', sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">ICRCMP</text>
+  </g>
+
+  <!-- Tagline Institutionnelle -->
+  <text x="215" y="145" font-family="'Inter', sans-serif" font-size="16" font-weight="600" fill="#C9A227" letter-spacing="4">ASSOCIATION LOI 1901 — RÉGULATION PROCÉDURALE</text>
+  <text x="215" y="180" font-family="'Inter', sans-serif" font-size="14" font-weight="400" fill="#FAF9F6" opacity="0.8">Fédération d'Experts Certifiés en Médiation, Conciliation &amp; Recours</text>
+
+  <!-- Titre Principal -->
+  <text x="100" y="300" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="700" fill="#FFFFFF">
+    Institut Certifié de Recours Contentieux
+  </text>
+  <text x="100" y="365" font-family="'Playfair Display', Georgia, serif" font-size="52" font-weight="700" fill="#FFFFFF">
+    et de Médiation Procédurale
+  </text>
+
+  <!-- Baseline Or -->
+  <text x="100" y="440" font-family="'Playfair Display', Georgia, serif" font-size="28" font-style="italic" fill="#C9A227">
+    « L'expertise certifiée au service de vos recours »
+  </text>
+
+  <!-- Avertissement déontologique obligatoire -->
+  <text x="100" y="530" font-family="'Inter', sans-serif" font-size="13" font-weight="400" fill="#E2E2DC" opacity="0.85">
+    Médiation conventionnelle • Arbitrage • Recours gracieux préalables (RAPO) • Respect strict de la loi n° 71-1130
+  </text>
+  <text x="100" y="552" font-family="'Inter', sans-serif" font-size="12" font-weight="400" fill="#C9A227" opacity="0.9">
+    L'ICRCMP ne se substitue pas à un avocat — Label privé associatif non reconnu par l'État
+  </text>
+</svg>
+

@@ -1,0 +1,19 @@
+[
+  {
+    "nom": "Fares",
+    "prenom": "Chawki",
+    "role": "Président de l'ICRCMP",
+    "titre": "Spécialiste de la régulation procédurale et de l'accès au droit",
+    "description": "Pilote la stratégie déontologique de l'Institut, garantit la stricte neutralité de nos interventions et la conformité continue aux obligations de la loi 1901 et de la loi n° 71-1130.",
+    "photo": "/team/chawki-fares.jpg"
+  },
+  {
+    "nom": "Omaich",
+    "prenom": "Abdourahim",
+    "role": "Secrétaire Général",
+    "titre": "Auditeur de conformité & gestion des commissions de labellisation",
+    "description": "Responsable du contrôle d'instruction des dossiers de candidature, de la tenue du registre des experts certifiés et de l'instruction contradictoire du Label privé.",
+    "photo": "/team/abdourahim-omaich.jpg"
+  }
+]
+
