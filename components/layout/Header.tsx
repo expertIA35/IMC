@@ -33,7 +33,6 @@ export const Header: React.FC = () => {
             className="flex items-center gap-3.5 group focus:outline-none focus:ring-2 focus:ring-[#C9A227] rounded-sm py-1"
             aria-label="Accueil ICRCMP"
           >
-            {/* Sceau officiel haute définition */}
             <div className="relative w-11 h-11 sm:w-12 sm:h-12 flex-shrink-0 rounded-full overflow-hidden bg-white/5 border border-[#C9A227] shadow-sm flex items-center justify-center">
               <Image
                 src="/logo-seal.svg"
@@ -45,10 +44,8 @@ export const Header: React.FC = () => {
               />
             </div>
 
-            {/* Séparateur vertical fin institutionnel */}
             <div className="hidden sm:block h-8 w-[1.5px] bg-[#C9A227]/70" />
 
-            {/* Typographie institutionnelle */}
             <div className="flex flex-col">
               <span className="font-serif font-bold text-lg sm:text-xl tracking-wider text-white group-hover:text-[#C9A227] transition-colors leading-none">
                 ICRCMP
@@ -70,9 +67,6 @@ export const Header: React.FC = () => {
               <div className="absolute top-full left-0 w-60 bg-[#0B1F3A] border border-[#143054] shadow-xl py-2 hidden group-hover:block rounded-sm">
                 <Link href="/institut/qui-sommes-nous" className="block px-4 py-2 hover:bg-[#143054] hover:text-[#C9A227]">
                   Qui sommes-nous
-                </Link>
-                <Link href="/institut/equipe" className="block px-4 py-2 hover:bg-[#143054] hover:text-[#C9A227]">
-                  Conseil & Gouvernance
                 </Link>
                 <Link href="/institut/statuts" className="block px-4 py-2 hover:bg-[#143054] hover:text-[#C9A227]">
                   Statuts de l'Association
@@ -100,7 +94,7 @@ export const Header: React.FC = () => {
                   Arbitrage Conventionnel
                 </Link>
                 <Link href="/expertises/formation" className="block px-4 py-2 hover:bg-[#143054] hover:text-[#C9A227]">
-                  Formation Continue Procédurale
+                  Information Juridique Continue
                 </Link>
               </div>
             </div>

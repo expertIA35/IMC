@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ShieldCheck, Scale, FileText, ArrowRight } from "lucide-react";
+import { Scale } from "lucide-react";
 
 export const Footer: React.FC = () => {
   return (
@@ -46,11 +46,6 @@ export const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/institut/equipe" className="hover:text-[#C9A227] transition-colors">
-                  Conseil d'administration & Équipe
-                </Link>
-              </li>
-              <li>
                 <Link href="/institut/deontologie" className="hover:text-[#C9A227] transition-colors">
                   Charte de déontologie
                 </Link>
@@ -82,7 +77,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link href="/expertises/formation" className="hover:text-[#C9A227] transition-colors">
-                  Formation certifiante continue
+                  Information juridique continue
                 </Link>
               </li>
               <li>
@@ -170,7 +165,7 @@ export const Footer: React.FC = () => {
               <strong className="text-white block mb-1">
                 AVERTISSEMENT DÉONTOLOGIQUE MAJEUR (LOI N° 71-1130 DU 31 DÉCEMBRE 1971) :
               </strong>
-              L'Institut Certifié de Recours Contentieux et de Médiation Procédurale (ICRCMP) ne se substitue pas à un avocat. L'Institut et les membres experts référencés s'interdisent toute consultation juridique et toute rédaction d'actes sous seing privé relevant du champ exclusif réservé par la loi aux professionnels du droit réglementés. Le label ICRCMP constitue un label associatif d'excellence technique privé et n'emporte aucune reconnaissance officielle ou d'État.
+              L'Institut Certifié de Recours Contentieux et de Médiation Procédurale (ICRCMP) ne se substitue pas à un avocat là où sa présence est obligatoire et ne délivre aucune consultation juridique réservée par la loi n° 71-1130 du 31 décembre 1971. Le label ICRCMP est un label privé associatif, non reconnu par l'État. L'ICRCMP ne garantit aucun résultat quant à l'issue des recours engagés. Les données transmises via les formulaires sont traitées conformément à la politique de confidentialité.
             </div>
           </div>
         </div>
